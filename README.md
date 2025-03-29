@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flight Booking Service
 
 A Django-based flight booking service application built with Docker, PostgreSQL, and MongoDB for efficient data management.
@@ -66,3 +67,6 @@ To create a Django admin superuser:
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
+=======
+# Flight-Reservation-App
+>>>>>>> da7e0b7b51b2a08a968d4a524caecfe7a126ce8a

@@ -133,11 +133,11 @@ from pymongo import MongoClient
 MONGO_DB_CONFIG = {
     'NAME': os.environ.get('MONGO_NAME'),
     'HOST': os.environ.get('MONGO_HOST'),
-    'PORT': int(os.environ.get('MONGO_PORT', 27017)),
+    
 }
 
 # Initialize MongoDB client
-mongo_client = MongoClient(MONGO_DB_CONFIG['HOST'], MONGO_DB_CONFIG['PORT'])
+mongo_client = MongoClient(MONGO_DB_CONFIG['HOST'])
 mongo_db = mongo_client[MONGO_DB_CONFIG['NAME']]
 
 

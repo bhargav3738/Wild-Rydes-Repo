@@ -24,22 +24,7 @@ def contributors_view(request):
             "name": "Bhargav Nimbalkar",
             "description": "Lead Backend Developer responsible for backend architecture."
         },
-        {
-            "name": "Emin Aydin",
-            "description": "Designed relational and NoSQL database architectures for storing data."
-        },
-        {
-            "name": "Aishwarya Ramesh",
-            "description": " Cloud Deployment"
-        },
-        {
-            "name": "Harlan Dela Rosa",
-            "description": "Frontend Developer responsible for overseeing the design and development of the user interface (UI) architecture."
-        },
-        {
-            "name": "Angela Jonyl Reyes",
-            "description": "Frontend Developer responsible for the design, and implementation of user-facing web applications"
-        }
+        
         
         
     ]
