@@ -22,7 +22,7 @@ def contributors_view(request):
     contributors = [
         {
             "name": "Bhargav Nimbalkar",
-            "description": "Lead Backend Developer responsible for backend architecture."
+            "description": "Lead Backend Developer responsible for Frontend and backend architecture.Responsible for developing CI/CD pipeline and managing AWS infrastructure aswell"
         },
         
         
