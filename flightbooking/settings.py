@@ -47,7 +47,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://pjh5psyb3s.us-east-2.awsapprunner.com',
     
 ]
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 INSTALLED_APPS = [
