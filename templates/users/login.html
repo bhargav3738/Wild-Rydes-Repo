@@ -1,9 +1,9 @@
 {% extends 'base.html' %} {% load static %} {% block title %}Login - Flight
-Booking Demo{% endblock %} {% block extra_css %}
+Booking {% endblock %} {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/login.css' %}" />
 {% endblock %} {% block content %}
 <div class="login-container">
-  <h1 class="login-title">Welcome to Flight Booking</h1>
+  <h1 class="login-title">Welcome to Flight Booking Demo</h1>
   <form class="login-form" method="post" action="{% url 'login' %}">
     {% csrf_token %}
     <div class="form-group">
