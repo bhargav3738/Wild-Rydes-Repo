@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+}
+
+.hero-section {
+  background: url("/static/images/flight-banner.jpg") no-repeat center/cover;
+  padding: 5rem 0;
+}
+
+.hero-section .bg-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2.5rem 0;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  border-radius: 0.25rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1.5rem 0;
+}

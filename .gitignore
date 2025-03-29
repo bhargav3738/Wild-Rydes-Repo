@@ -1,0 +1,48 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore terraform plan output
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (used for personal overrides, not intended to be shared)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Directory for local .terraform plugins and modules
+.terraform/
+
+# Lock file (you can optionally track this)
+.terraform.lock.hcl
+
+# Ignore CLI configuration file
+.terraformrc
+terraform.rc
+
+.terraform/
+*.exe
+modules/
