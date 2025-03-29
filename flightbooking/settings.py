@@ -43,6 +43,7 @@ ALLOWED_HOSTS = ['*']
 AUTH_USER_MODEL = 'users.User'
 # Application definition
 CSRF_TRUSTED_ORIGINS = [
+    'http://django-alb-1311984941.us-east-1.elb.amazonaws.com',
     'https://pjh5psyb3s.us-east-2.awsapprunner.com',
     
 ]

@@ -27,8 +27,9 @@ def login_view(request):
             return redirect('home')  # Redirect to dashboard or home page
         else:
             messages.error(request, 'Invalid username or password')
-    return render(request, 'users/login.html')
-
+            return render(request, 'users/login.html')
+    else:
+        return render(request, 'users/login.html') 
 
 def register_view(request):
     if request.method == 'POST':
