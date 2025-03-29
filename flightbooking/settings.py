@@ -127,18 +127,7 @@ DATABASES = {
 #     }
 # }
 
-# mongodb database connection settings
-from pymongo import MongoClient
 
-MONGO_DB_CONFIG = {
-    'NAME': os.environ.get('MONGO_NAME'),
-    'HOST': os.environ.get('MONGO_HOST'),
-    
-}
-
-# Initialize MongoDB client
-mongo_client = MongoClient(MONGO_DB_CONFIG['HOST'])
-mongo_db = mongo_client[MONGO_DB_CONFIG['NAME']]
 
 
 
