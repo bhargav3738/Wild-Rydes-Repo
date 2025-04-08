@@ -5,12 +5,5 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "django-app"
-          ContainerPort: 8000
-        PlatformVersion: "LATEST"
-Hooks:
-  - BeforeInstall: "BeforeInstallHookFunctionName"
-  - AfterInstall: "AfterInstallHookFunctionName"
-  - AfterAllowTestTraffic: "AfterAllowTestTrafficHookFunctionName"
-  - BeforeAllowTraffic: "BeforeAllowTrafficHookFunctionName"
-  - AfterAllowTraffic: "AfterAllowTrafficHookFunctionName"
+          ContainerName: "wildrydes-container"
+          ContainerPort: 80
